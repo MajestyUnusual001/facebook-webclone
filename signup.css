@@ -1,0 +1,107 @@
+h1 {
+  text-align: center;
+  color: rgb(27, 116, 228);
+}
+#heading {
+  font-size: 25px;
+  font-weight: 800;
+}
+.line{
+  height: 1px;
+  background-color: rgb(112,113,118 );
+  width: 100%;
+  margin: 10px;
+}
+#pap{
+  color: rgb(112,113,118 );
+  margin-top: -15px;
+}
+.face {
+  width: 33.3%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.face .name {
+  display: flex;
+  justify-content: space-between;
+}
+input .select{
+    padding: 8px 15px;
+}
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.items select{
+    width: 31%;
+}
+.gender{
+    border: 1px solid grey;
+    padding: 8px 15px;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+.dob-group.items{
+    display: flex;
+
+
+}
+.items2 input {
+    width: 100%;
+    margin-top: 15px;
+}
+.items2{
+    width: 100%;
+    display: flex;
+}
+.font{
+  font-size: 12px;
+}
+.footer p{
+  font-size: 12px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: gray;
+}
+.footer a{
+  text-decoration: none;
+}
+.input-padding{
+  padding: 8px;
+  border-radius: 5px solid white;
+  
+}
+ .input-padding:focus{
+  border: none;
+  outline: 1px solid blue;
+} 
+.input-padding2{
+  padding: 8px;
+  border-radius: 7px solid white;
+}
+.pad{
+  padding: 8px;
+  border-radius: 5px solid rgb(255,255,255);
+}
+.signup{
+  text-align: center;
+}
+.signup .signup-btn{
+  background-color:rgb(5, 160, 4);
+  color: aliceblue;
+  font-weight: 900;
+  padding: 10px;
+ width: 200px;
+ border: none;
+ border-radius: 5px;
+}
+.signup a{
+  text-decoration: none;
+}

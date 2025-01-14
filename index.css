@@ -1,0 +1,92 @@
+    .body{
+        margin: 0;
+        font-family: inherit;
+        background-color: #f0f2f5 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .part{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .left-part{
+        flex: 1;
+       padding:20px ;
+       text-align: left;
+    }
+    .left-part h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: blue;
+        font-size: 40px;
+        margin: 0;
+    }
+    .left-part p{
+        color: grey;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .right-part{
+        flex: 1;
+        max-width: 400px;
+        padding: 20px;
+        background:#fff ;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .right-part form{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-part input{
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .right-part .login-btn{
+        background-color: rgb(76, 0, 255, 0.952);
+        color: #f0f2f5;
+        border: none;
+        border-radius: 5px;
+        padding: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+
+    }
+   .right-part .login-btn:hover{
+    background-color: rgba(76, 0, 255, 0.952);
+   }
+   .right-part .create-account{
+    background-color: hsl(120, 100%, 25%);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+   }
+   .right-part .create-account:hover{
+    background-color: hsla(120, 100%, 25%, .9);
+   }
+   .right-part .forgot-password{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+.right-part a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
